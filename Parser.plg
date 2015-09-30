@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Parser - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\Aamir\LOCALS~1\Temp\RSP11E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Parser.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\TEMP\VC\Parser 5\Parser1.cpp"
+"H:\TEMP\VC\Parser 5\Token.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\Aamir\LOCALS~1\Temp\RSP11E.tmp" 
+Creating temporary file "D:\DOCUME~1\Aamir\LOCALS~1\Temp\RSP11F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Parser.pdb" /machine:I386 /out:"Release/Parser.exe" 
+".\Release\MsgDlg.obj"
+".\Release\Parser.obj"
+".\Release\Parser1.obj"
+".\Release\ParserDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Token.obj"
+".\Release\Parser.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\Aamir\LOCALS~1\Temp\RSP11F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Parser1.cpp
+Token.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Parser.bsc"  ".\Release\StdAfx.sbr" ".\Release\MsgDlg.sbr" ".\Release\Parser.sbr" ".\Release\Parser1.sbr" ".\Release\ParserDlg.sbr" ".\Release\Token.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Parser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
